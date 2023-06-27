@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    top: 0;
+    padding: 0;
+}
+
+  .nav {
+    background-color: rgb(93, 191, 240);
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 80px;
+    z-index: 1000;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+  }
+  
+  
+  .nav .nav-content {
+    max-width: 1300px;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+  
+  .nav-item {
+    display: inline;
+    margin-left: 2rem;
+    color: black;
+  }
+  
+
+  .aboutSection {
+    max-width: 800px;
+    margin: 0%;
+    padding: 40px;
+    color:rgb(0, 0, 0);
+    background-color: ;
+    font-family: "Karla", sans-serif;
+    height: 50%;
+  }
+
+  
+  .about-content {
+    max-width: 1300px;
+    margin: 0 auto;
+    color: black;
+    padding-top: 0px;
+    font-family: "Karla", sans-serif;
+
+  } 
+  
+  .aboutHeader {
+    font-size: 120px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 0.6;
+
+  }
+  
+  .aboutHeader span {
+    color: red;
+  }
+  
+  .aboutParagraph {
+    font-size: 35px;
+    margin-bottom: 100px;
+  }
+
+  
+  .projectsSection {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: white;
+    color: black;
+    font-family: "Baloo Tammudu 2";
+  }
+
+    
+  .projectTitle {
+    font-size: 75px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+  }
+  
+  .projectTitle:hover {
+    font-size: 80px;
+    color: red;
+  }
+  
+  .card {
+    width: 45%;
+    background-color: white;
+    margin-top: 5%;
+    box-shadow: 0 5px 15px 0px rgba(236, 17, 17, 0.6);
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    flex-shrink: inherit;
+  }
+  
+  .projectImage {
+    width: 100%;
+    border: 3px solid white;
+  }
+  
+  .projectCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    width: 100%;
+  }
+  
+  
+  .contact-content {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  .contactSection {
+    color: black;
+    background-color: white;
+    font-family: "Karla", sans-serif;
+    height: 100px;
+  }
+
+  
+  .contactTitle {
+    font-size: 75px;
+  
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+  }
+  
+  .contactTitle:hover {
+    font-size: 80px;
+    color: red;
+  }
+  
+  .headerContent {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .projectCardHeader {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px solid white;
+    align-items: center;
+  }
+  
+  .projectCardTitle {
+    margin-right: 1px;
+  }
+  
+  .socialLink:hover {
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .socialLink {
+    color: black;
+    text-decoration: none;
+  }
+
+  .contactLinks {
+    margin-top: 250px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
